@@ -1,7 +1,7 @@
 
 /* ---- Layout Containers ---- */
 .container {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   border: solid pink;
 }
@@ -34,17 +34,28 @@ header {
    /* grid-gap: 20px; */
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+}
+
+/* -------- CARD TOP -------- */
+
 .card-top {
+  display: flex;
   background-color: yellow;
+  height: 35%;
 }
 
 .miles-container {
+  display: flex;
   border: solid orange;
 }
 
 /* -------------CARD IMAGE BACKGROUNDS----------- */
 .card {
-  border: solid green;
+  border: 6px solid black;
 }
 
 card-image-1 {
@@ -81,27 +92,43 @@ card-image-8 {
 
 
 /* ----------CARD BOTTOM--------------- */
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  border: solid 10px red;
+  height: 65;
+}
+
 .details {
+  display: flex;
+  justify-content: space-between;
   border: dashed green;
 }
 
 .name-and-hours {
+  display: flex;
+  flex-direction: column;
   background-color: bisque;
 }
 
 .shop-features {
+  display: flex;
+  flex-direction: column;
   background-color: cadetblue;
 }
 
 .address-container {
+  display: flex;
   background-color: darkgoldenrod;
 }
 
 .num-rating-container {
+  display: flex;
   background-color: darkgrey;
 }
 
 .star-container {
+  /* display: flex; */
   background-color: yellowgreen;
 }
 
