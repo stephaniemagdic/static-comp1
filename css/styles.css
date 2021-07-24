@@ -24,7 +24,8 @@ header {
   border: solid blue;
   /* border: 1px dashed; */
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  /* grid-template-columns: 33% 33% 33%; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   grid-gap: 20px;
   /* grid-template-columns: repeat(3, 1fr); */
