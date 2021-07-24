@@ -1,9 +1,28 @@
+* {
+  font-family: sans-serif;
+  color: #151618;
+}
 
-/* ---- Layout Containers ---- */
+p {
+  margin: 0;
+}
+
+/* p, h1, h2, h3, h4 {
+  font-family: sans-serif;
+  color: #151618;
+} */
+
+
+/* *---- Layout Containers ---- */ */
 .container {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   border: solid pink;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
 }
 /* 
 -----------------HEADER----------------- */
@@ -26,7 +45,11 @@ header {
   display: grid;
   /* grid-template-columns: 33% 33% 33%; */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  /* grid-template-columns: repeat(5, 20vw);
+  grid-template-rows: repeat(3, 20vw); */
+
+
+
   grid-gap: 20px;
   /* grid-template-columns: repeat(3, 1fr); */
 
@@ -38,6 +61,7 @@ header {
   display: flex;
   flex-direction: column;
   background-color: pink;
+  min-height: 375px;
 }
 
 /* -------- CARD TOP -------- */
@@ -95,41 +119,83 @@ card-image-8 {
 .card-bottom {
   display: flex;
   flex-direction: column;
-  border: solid 10px red;
-  height: 65;
+  height: 65%;
 }
-
-.details {
+/* 3 INDIV CONTAINERS WITHIN CARD BOTTOM 
+.details, .adress-container, and rating-container */
+.details-container {
   display: flex;
   justify-content: space-between;
   border: dashed green;
+  height: 51%;
 }
-
+/* within details */
 .name-and-hours {
   display: flex;
   flex-direction: column;
   background-color: bisque;
+  flex: 1;
+}
+
+.shop-name, .hours {
+  /* flex: 1; */
+  margin: 0;
+}
+
+.shop-name {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.hours {
+  margin-top: 0px;
+  color: hsl(225, 2%, 36%); 
 }
 
 .shop-features {
-  display: flex;
-  flex-direction: column;
+  display: flex; 
+  flex-direction: column; 
   background-color: cadetblue;
+  flex: 1;
+}
+
+.feature {
+  /* flex: 1; */
+}
+
+.feature-p {
+  margin: 0;
 }
 
 .address-container {
   display: flex;
   background-color: darkgoldenrod;
+  height: 22%;
 }
 
-.num-rating-container {
+.address {
+ color: hsl(240, 1%, 14%); 
+}
+
+.rating-container {
   display: flex;
+  flex-direction: column;
+  height: 27%;
+}
+
+/* within-rating-container */
+.num-rating-container {
   background-color: darkgrey;
+  display: flex;
+
+  
 }
 
 .star-container {
   /* display: flex; */
   background-color: yellowgreen;
+
+  
 }
 
 /* ----------------MOBILE RESPONSIVE DESIGN-------------- */
@@ -141,6 +207,12 @@ card-image-8 {
   /* ----------CARD BOTTOM--------------- */
   .mobile-details {
     border: dashed red;
+  }
+
+  .cards {
+    /* //change this below. */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
   }
   
 }
