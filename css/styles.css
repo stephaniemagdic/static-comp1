@@ -33,11 +33,19 @@ header {
    /* grid-gap: 20px; */
 }
 
-card-top {
+.card-top {
   background-color: yellow;
 }
 
+.miles-container {
+  border: solid orange;
+}
+
 /* -------------CARD IMAGE BACKGROUNDS----------- */
+.card {
+  border: solid green;
+}
+
 img-top-1 {
   background-image: url(coffee1-jpeg);
 }
