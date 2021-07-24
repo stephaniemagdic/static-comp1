@@ -47,35 +47,35 @@ header {
   border: solid green;
 }
 
-img-top-1 {
+card-image-1 {
   background-image: url(coffee1-jpeg);
 }
 
-img-top-2 {
+card-image-2 {
  
 }
 
-img-top-3 {
+card-image-3 {
  
 }
 
-img-top-4 {
+card-image-4 {
  
 }
 
-img-top-5 {
+card-image-5 {
  
 }
 
-img-top-6 {
+card-image-6 {
  
 }
 
-img-top-7 {
+card-image-7 {
  
 }
 
-img-top-8 {
+card-image-8 {
  
 }
 
@@ -88,6 +88,7 @@ img-top-8 {
   }
 }
 
+/* //do I use this below? */
 @media screen and (max-width: 1200px) and (min-width: 1025px) {
   .hide-for-desktop {
     display: none;
