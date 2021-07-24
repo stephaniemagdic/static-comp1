@@ -81,8 +81,9 @@ img-top-8 {
 
 
 
-
-
+/* ----------------MOBILE RESPONSIVE DESIGN-------------- */
+@media screen and (max-width: 425px) {
+}
 
 
 /* grid-template-columns: minmax(200px, 1.167fr) 0.45fr 0.25fr 0.3fr 0.8fr; */
