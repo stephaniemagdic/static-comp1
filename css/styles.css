@@ -80,12 +80,42 @@ card-image-8 {
 }
 
 
+/* ----------CARD BOTTOM--------------- */
+.details {
+  border: dashed green;
+}
+
+.name-and-hours {
+  background-color: bisque;
+}
+
+.shop-features {
+  background-color: cadetblue;
+}
+
+.address-container {
+  background-color: darkgoldenrod;
+}
+
+.num-rating-container {
+  background-color: darkgrey;
+}
+
+.star-container {
+  background-color: yellowgreen;
+}
 
 /* ----------------MOBILE RESPONSIVE DESIGN-------------- */
 @media screen and (max-width: 425px) {
   .hide-for-mobile {
     display: none;
   }
+
+  /* ----------CARD BOTTOM--------------- */
+  .mobile-details {
+    border: dashed red;
+  }
+  
 }
 
 /* //do I use this below? */
