@@ -3,20 +3,26 @@
 .container {
   width: 90%;
   margin: 0 auto;
+  border: solid pink;
 }
+/* 
+-----------------HEADER----------------- */
+header {
+  border: solid red;
+}
+
 
 /* //if space at top of file */
-h1 {
+/* h1 {
   margin-top: 0;
-}
+} */
 
-header {
-  
-}
+/* --------------------MAIN SECTION (CARDS) --------------------*/
 
-
+/*--------------------INDIV CARDS---------------------- */
 .cards {
-  border: 1px dashed;
+  border: solid blue;
+  /* border: 1px dashed; */
   display: grid;
   grid-template-columns: 33% 33% 33%;
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
@@ -26,6 +32,49 @@ header {
    /* grid-template-rows: repeat(3, 100px)*/
    /* grid-gap: 20px; */
 }
+
+card-top {
+  background-color: yellow;
+}
+
+/* -------------CARD IMAGE BACKGROUNDS----------- */
+img-top-1 {
+  background-image: url(coffee1-jpeg);
+}
+
+img-top-2 {
+ 
+}
+
+img-top-3 {
+ 
+}
+
+img-top-4 {
+ 
+}
+
+img-top-5 {
+ 
+}
+
+img-top-6 {
+ 
+}
+
+img-top-7 {
+ 
+}
+
+img-top-8 {
+ 
+}
+
+
+
+
+
+
 
 /* grid-template-columns: minmax(200px, 1.167fr) 0.45fr 0.25fr 0.3fr 0.8fr; */
 
