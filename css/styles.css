@@ -1,6 +1,6 @@
 
 /* ---- Layout Containers ---- */
-.wrapper {
+.container {
   width: 90%;
   margin: 0 auto;
 }
@@ -9,3 +9,56 @@
 h1 {
   margin-top: 0;
 }
+
+header {
+  
+}
+
+
+.cards {
+  border: 1px dashed;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  grid-gap: 20px;
+  /* grid-template-columns: repeat(3, 1fr); */
+
+   /* grid-template-rows: repeat(3, 100px)*/
+   /* grid-gap: 20px; */
+}
+
+/* grid-template-columns: minmax(200px, 1.167fr) 0.45fr 0.25fr 0.3fr 0.8fr; */
+
+
+/*--------------------------- STARTING TEMPLATE */
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+} */
+/* --------------------- */
+
+/*--------STYLE INDIVIDUAL BOXES TO SPAN MULTIPLES COLUMNS OR ROWS */
+
+/* .box1 {
+  grid-row: span 2;
+}
+
+.box8 {
+  grid-column: span 2;
+  /* which is shorthand for */
+/*   grid-column: 1 / 3; */
+  /* which is shorthand for */
+/*   grid-column-start: 1; */
+/*   grid-column-end: 3; */
+/* } */ 
+
+/* ----------------Span entire column------------------- */
+/* span the entire width of the grid */
+/* .box9 {
+  grid-column: 1 / -1;
+} */
+/* ------------------Make Grid Adaptive-------------------- */
+/* grid-template-columns: repeat(auto-fit, 300px); */
+/* ----------------Make grid responsive--------- */
+/* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
