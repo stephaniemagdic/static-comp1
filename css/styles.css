@@ -88,6 +88,13 @@ img-top-8 {
   }
 }
 
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .hide-for-desktop {
+    display: none;
+  }
+  /* //this includes the hamburger icon */
+}
+
 
 /* grid-template-columns: minmax(200px, 1.167fr) 0.45fr 0.25fr 0.3fr 0.8fr; */
 
