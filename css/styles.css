@@ -2,6 +2,7 @@
 /* ---- Default Styles ---- */ 
 * {
   font-family: sans-serif;
+  /* change font to white for color blindness in the nav bar */
   color: #151618;
 }
 
@@ -37,7 +38,8 @@ body {
 
 /* -----------------HEADER----------------- */
 .main-header {
- background-color: #556b2f;
+ background-color: #666d5a;
+ /* background-color: #556b2f; */
  height: 150px;
  display: flex;
  flex-direction: columns;
@@ -328,6 +330,9 @@ card-image-7 {
     display: none;
   }
 
+  /* FIX NEEDED */
+  /* align-items: space-between;
+    justify-content: space-between; */
   .main-header {
     display: flex;
   }
