@@ -390,14 +390,23 @@ card-image-7 {
     display: none;
   }
 
-  .header-container-mobile {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    padding: 20px;
-    margin: 0 auto;
-
+ .main-header {
+   display: flex;
+ 
+ }
+  .mobile-header-container  {
+     display: flex;
   }
+
+  .left-mobile-header-container {
+    margin: 20px;
+  }
+
+  .hamburger-menu {
+    margin-left: 130px;
+    margin-top: 20px;
+  }
+
 
   .name-logo {
     font-size: 15px;
