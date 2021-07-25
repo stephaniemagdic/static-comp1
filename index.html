@@ -9,12 +9,21 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="header-container">
 
+      <div class="hide-for-desktop">
+        <span class="header-container-mobile">
+          <h1 class="name-logo">COFFEEFINDER</h1>
+          <img class="mobile-user-img" src="./assets/icons8-user-60.png" alt="user">
+        </span>
+        <img class="hamburger-collapse" src="./assets/icons8-user-60.png" alt="user">
+      </div>
+
+
+      <div class="header-container">
         <nav class="nav hide-for-mobile">
           <ol>
             <li class="nearby">
-              <img class="nav-icon" nearby-icon" src="./assets/near-you.png"" alt="coffe cup in location pointer">
+              <img class="nav-icon hide-for-mobile"" nearby-icon" src="./assets/near-you.png"" alt="coffee cup in location pointer">
               NEAR YOU
             </li>
             <li>
@@ -29,13 +38,13 @@
         </nav>
         <div class="right-side-header">
           <span class="login user">
-            <img class="user-img" src="./assets/icons8-user-60.png" alt="user-login">
+            <img class="user-img hide-for-mobile"" src="./assets/icons8-user-60.png" alt="user-login">
             <p class="user-name hide-for-mobile">STEPHANIE MAGDIC</p>
             <a class="arrow-down" href=""></a>
           </span>
-          <span class="logo-container">
+          <span class="logo-container hide-for-mobile"">
             <h1 class="name-logo">COFFEEFINDER</h1>
-            <img class="coffee-cup" src="./assets/tea-cup.png" alt="coffee cup">
+            <img class="coffee-cup hide-for-mobile" src="./assets/tea-cup.png" alt="coffee cup">
           </span>
         </div>
       </div>
@@ -45,8 +54,13 @@
       <h2 class="near-you hide-for-mobile ">Near you</h2>
       <section class="cards">
         <article class="card card1">
+          <div class="shop-title-mobile hide-for-desktop">
+            OTIS COFFEE
+          </div>
+
+
           <!-- card top -->
-          <div class="card-top card-img-1">
+          <div class="card-top card-img-1 mobile-card-img-size">
             <img src="./assets/heart-black.png" alt="black heart" class="favorite-me hide-for-mobile">
             <div class="miles-container hide-for-mobile">
               <p class="miles-label">MILES</p>
@@ -83,7 +97,7 @@
                 <p class="address">400 W South Boulder Rd Ste 1100, Lafayette, CO 80026</p>
               </div>
               <div class="rating-container">
-                <p class="rating-label">
+                <p class="rating-label hide-for-mobile">
                   RATING
                 </p>
                 <span class="num-rating-container">
