@@ -21,8 +21,22 @@ p {
   color: #151618;
 } */
 
+/* *---- Images ---- */ 
+img {
+  width: 20px;
+  height: 20px;
+}
+/* opacity */
+.user-img {
+ 
+  margin: 5px;
+}
 
-/* *---- Layout Containers ---- */ */
+.user-name {
+  margin: 5px;
+}
+
+/* *---- Layout Containers ---- */ 
 .container {
   width: 90%;
   margin: 0 auto;
@@ -113,7 +127,6 @@ li {
 
 .card-top {
   display: flex;
-  background-color: yellow;
   height: 35%;
 }
 
@@ -125,29 +138,34 @@ li {
 /* -------------CARD IMAGE BACKGROUNDS----------- */
 .card {
   border: 6px solid black;
+  opacity: 0.75;
 }
 
-card-image-1 {
-  background-image: url(coffee1-jpeg);
+
+.card-img-1 {
+  background-image: url("../assets/coffee-shop-2.jpeg");
+  background-size: 500px 200px;
+  
 }
 
-card-image-2 {
+
+.card-img-2 {
  
 }
 
-card-image-3 {
+.card-img-3 {
  
 }
 
-card-image-4 {
+.card-img-4 {
  
 }
 
-card-image-5 {
+.card-img-5 {
  
 }
 
-card-image-6 {
+card-img-6 {
  
 }
 
@@ -155,7 +173,11 @@ card-image-7 {
  
 }
 
-card-image-8 {
+
+.card-img-8 {
+  background-image: url("../assets/coffee.shop-1.jpeg");
+  background-size: 500px 200px;
+
  
 }
 
@@ -175,7 +197,6 @@ card-image-8 {
 .details-container {
   display: flex;
   justify-content: space-between;
-  border: dashed green;
   height: 51%;
   margin-left: 10px;
   margin-right: 10px;
@@ -184,7 +205,7 @@ card-image-8 {
 .name-and-hours {
   display: flex;
   flex-direction: column;
-  background-color: bisque;
+  /* background-color: bisque; */
   flex: 1;
 }
 
@@ -206,22 +227,23 @@ card-image-8 {
 .shop-features {
   display: flex; 
   flex-direction: column; 
-  background-color: cadetblue;
+
+  margin-top: 10px;
   /* flex: 1;
   margin: 0;
   padding: 0; */
 }
 
 .feature {
-  /* flex: 1; */
-  /* margin: 0;
-  padding: 0; */
+  /* display: inline; */
 }
 
 .feature-p {
+  display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
   font-size: 12px;
+
 }
 
 .address-container {
