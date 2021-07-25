@@ -40,7 +40,6 @@ img {
 .container {
   width: 90%;
   margin: 0 auto;
-  border: solid pink;
 }
 
 main {
@@ -85,8 +84,33 @@ li {
   justify-content: flex-end;
 }
 
+.right-side-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .login {
  margin: 10px;
+}
+
+.logo-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.name-logo {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* ---------image */
+
+.coffee-cup {
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
 }
 /* --------------------MAIN SECTION (CARDS) --------------------*/
 
@@ -99,7 +123,7 @@ li {
 }
 /*--------------------INDIV CARDS---------------------- */
 .cards {
-  border: solid blue;
+
   /* border: 1px dashed; */
   display: grid;
   /* grid-template-columns: 33% 33% 33%; */
@@ -121,6 +145,7 @@ li {
   flex-direction: column;
   background-color: white;
   min-height: 375px;
+  opacity: 0.75;
 }
 
 /* -------- CARD TOP -------- */
@@ -128,18 +153,32 @@ li {
 .card-top {
   display: flex;
   height: 35%;
+  justify-content: space-between;
 }
 
+.favorite-me {
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+}
 .miles-container {
   display: flex;
-  border: solid orange;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.miles-label {
+font-size: 10px;
+}
+
+.miles {
+font-size: 20px;
+font-weight: 700;
+/* line-height: ; */
 }
 
 /* -------------CARD IMAGE BACKGROUNDS----------- */
-.card {
-  border: 6px solid black;
-  opacity: 0.75;
-}
+
 
 
 .card-img-1 {
@@ -227,6 +266,7 @@ card-image-7 {
 .shop-features {
   display: flex; 
   flex-direction: column; 
+  justify-content: space-around;
 
   margin-top: 10px;
   /* flex: 1;
@@ -236,6 +276,11 @@ card-image-7 {
 
 .feature {
   /* display: inline; */
+  /* margin-bottom: 3px; */
+}
+
+.feature-img {
+  size: 80%;
 }
 
 .feature-p {
@@ -243,7 +288,7 @@ card-image-7 {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 12px;
-
+  line-height: 40px;
 }
 
 .address-container {
