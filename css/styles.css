@@ -1,133 +1,410 @@
 
-/* ---- Layout Containers ---- */
+/* ---- Default Styles ---- */ 
+* {
+  font-family: sans-serif;
+  color: #151618;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+/* *---- Layout Containers ---- */ 
 .container {
   width: 90%;
   margin: 0 auto;
-  border: solid pink;
 }
-/* 
------------------HEADER----------------- */
-header {
-  border: solid red;
+
+main, .header-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #EFE4D4;
+}
+
+/* -----------------HEADER----------------- */
+.main-header {
+ background-color: #556b2f;
+ height: 150px;
+ display: flex;
+ flex-direction: columns;
+ justify-content: space-between;
+ align-content: flex-end;
+}
+
+/* ---------------nav bar------------- */
+.left-side-header {
+  display: flex;
+  align-items: flex-end;
+}
+
+ol {
+  display: flex;
+}
+
+li {
+  margin: 20px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-side-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login {
+ margin: 10px;
+}
+
+.logo-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.name-logo {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.nearby {
+  color: #EFE4D4;
 }
 
 
-/* //if space at top of file */
-/* h1 {
-  margin-top: 0;
-} */
+                          /* ---- Header Images ---- */ 
+
+.nav-icon {
+  margin-right: 10px;
+ }
+
+.user-img {
+  margin: 5px;
+}
+
+.user-name {
+  margin: 5px;
+}
+
+.coffee-cup {
+  margin-left: 5px;
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.drop-down-arrow {
+  height: 10px;
+  margin-top: 6px;
+}
 
 /* --------------------MAIN SECTION (CARDS) --------------------*/
-
-/*--------------------INDIV CARDS---------------------- */
+.near-you {
+  font-size: 2em;
+  opacity: .7;
+  font-weight: 480;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+                      /*-----------INDIV CARDS---------- */
 .cards {
-  border: solid blue;
-  /* border: 1px dashed; */
   display: grid;
-  /* grid-template-columns: 33% 33% 33%; */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   grid-gap: 20px;
-  /* grid-template-columns: repeat(3, 1fr); */
-
-   /* grid-template-rows: repeat(3, 100px)*/
-   /* grid-gap: 20px; */
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 375px;
+  opacity: 0.65;
+}
+
+                          /* -------- CARD TOP -------- */
 .card-top {
-  background-color: yellow;
+  display: flex;
+  height: 35%;
+  justify-content: space-between;
+}
+
+.favorite-me {
+  margin: 20px;
+  height: 40px;
+  width: 40px;
 }
 
 .miles-container {
-  border: solid orange;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
 }
 
-/* -------------CARD IMAGE BACKGROUNDS----------- */
-.card {
-  border: solid green;
+.miles-label {
+font-size: 16px;
 }
 
-img-top-1 {
-  background-image: url(coffee1-jpeg);
+.miles {
+font-size: 35px;
+font-weight: 500;
 }
 
-img-top-2 {
+                     /* ----------CARD IMAGE BACKGROUNDS------ */
+.card-img-1 {
+  background-image: url("../assets/coffee-shop-2.jpeg");
+  background-size: 500px 200px;
+}
+
+.card-img-2 {
  
 }
 
-img-top-3 {
+.card-img-3 {
  
 }
 
-img-top-4 {
+.card-img-4 {
  
 }
 
-img-top-5 {
+.card-img-5 {
  
 }
 
-img-top-6 {
+card-img-6 {
  
 }
 
-img-top-7 {
+card-image-7 {
  
 }
 
-img-top-8 {
- 
+.card-img-8 {
+  background-image: url("../assets/coffee.shop-1.jpeg");
+  background-size: 500px 200px;
 }
 
 
+                /* ----------CARD BOTTOM--------------- */
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  height: 65%;
+}
 
-/* ----------------MOBILE RESPONSIVE DESIGN-------------- */
+             /* NOTE 3 INDIV CONTAINERS WITHIN CARD BOTTOM 
+              .details, .adress-container, and rating-container */
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  height: 51%;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+               /* within details container */
+.name-and-hours {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 6px;
+}
+
+.shop-name, .hours {
+  margin: 0;
+}
+
+.shop-name {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.hours {
+  margin-top: 0px;
+  color: hsl(225, 2%, 36%); 
+  font-size: .7em;
+  margin-left: 2px;
+}
+
+.shop-features {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.feature {
+  display: flex; 
+  align-items: center;
+}
+
+.feature-img {
+  size: 80%;
+}
+
+.feature-p {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 40px;
+  margin-top: 0px;
+}
+
+.address-container {
+  display: flex;
+  background-color: #b68557 ;
+  height: 22%;
+  align-items: center;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+                        /* within address container */
+.address {
+ color: hsl(240, 1%, 14%); 
+ padding: 6px;
+ font-size: .8em;
+ padding-right: 15px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  height: 27%;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.rating-label {
+  font-size: 12px;
+  margin: 3px;
+}
+
+.number-rating {
+  font-size: 1.5em;
+  color: #556b2f;
+  margin-right: 12px;
+  margin-left: 6px;
+}
+
+             /* within-rating-container */
+.num-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-star {
+  height: 70%;
+  padding-top: 3px;
+}
+
+/* ----------------MOBILE RESPONSIVE DESIGN/ MEDIA QUERIES-------------- */
 @media screen and (max-width: 425px) {
   .hide-for-mobile {
     display: none;
   }
+
+  .main-header {
+    display: flex;
+  }
+
+  .mobile-header-container  {
+     display: flex;
+  }
+
+  .left-mobile-header-container {
+    margin: 20px;
+  }
+
+  .hamburger-menu {
+    margin-left: 130px;
+    margin-top: 20px;
+  }
+
+  .name-logo {
+    font-size: 15px;
+  }
+
+  .mobile-user-img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+
+  article:nth-child(1) {
+    margin-top: 10px;
+  }
+
+
+                       /* ----------CARD --------------- */
+  .cards {
+    grid-gap: 2px;
+  }
+
+  .card {
+    min-height: 325px;
+  }
+
+  .details-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .shop-features {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+  }
+
+  .feature-img {
+    padding: 6px;
+    height: 35px;
+    width: 35px;
+  }
+
+  .num-rating-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-top {
+    margin: 20px;
+    border-radius: 3px;
+  }
+
+  .shop-title-mobile {
+    font-size: 20px;
+    margin: 9px;
+  }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 1025px) {
+@media screen and (min-width: 450px) {
   .hide-for-desktop {
     display: none;
   }
-  /* //this includes the hamburger icon */
 }
 
-
-/* grid-template-columns: minmax(200px, 1.167fr) 0.45fr 0.25fr 0.3fr 0.8fr; */
-
-
-/*--------------------------- STARTING TEMPLATE */
-/* .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
-} */
-/* --------------------- */
-
-/*--------STYLE INDIVIDUAL BOXES TO SPAN MULTIPLES COLUMNS OR ROWS */
-
-/* .box1 {
-  grid-row: span 2;
-}
-
-.box8 {
-  grid-column: span 2;
-  /* which is shorthand for */
-/*   grid-column: 1 / 3; */
-  /* which is shorthand for */
-/*   grid-column-start: 1; */
-/*   grid-column-end: 3; */
-/* } */ 
-
-/* ----------------Span entire column------------------- */
-/* span the entire width of the grid */
-/* .box9 {
-  grid-column: 1 / -1;
-} */
-/* ------------------Make Grid Adaptive-------------------- */
-/* grid-template-columns: repeat(auto-fit, 300px); */
-/* ----------------Make grid responsive--------- */
-/* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
