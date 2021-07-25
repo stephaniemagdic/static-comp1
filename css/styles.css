@@ -68,7 +68,7 @@ body {
 }
 
 /* ---------------nav bar------------- */
-nav {
+.left-side-header {
   display: flex;
   align-items: flex-end;
 }
@@ -132,7 +132,10 @@ li {
   width: 30px;
 }
 
-
+.drop-down-arrow {
+  height: 10px;
+  margin-top: 6px;
+}
 
 /* --------------------MAIN SECTION (CARDS) --------------------*/
 
