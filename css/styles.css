@@ -1,12 +1,5 @@
-/* fonts 
-Black Russian: #151618
-Dark Olive Green: #556B2F
-Olive Green: #A9A454
-Quarter Spanish White: #EFE4D4
-Bourbon: #b07946 
-   shade lighter still: #b68557*/
 
-
+/* ---- Default Styles ---- */ 
 * {
   font-family: sans-serif;
   color: #151618;
@@ -16,24 +9,9 @@ p {
   margin: 0;
 }
 
-/* p, h1, h2, h3, h4 {
-  font-family: sans-serif;
-  color: #151618;
-} */
-
-/* *---- Images ---- */ 
 img {
   width: 20px;
   height: 20px;
-}
-/* opacity */
-.user-img {
- 
-  margin: 5px;
-}
-
-.user-name {
-  margin: 5px;
 }
 
 /* *---- Layout Containers ---- */ 
@@ -56,8 +34,8 @@ main, .header-container {
 body {
   background-color: #EFE4D4;
 }
-/* 
------------------HEADER----------------- */
+
+/* -----------------HEADER----------------- */
 .main-header {
  background-color: #556b2f;
  height: 150px;
@@ -84,15 +62,6 @@ li {
   justify-content: center;
   align-items: center;
 }
-
-.nav-icon {
- margin-right: 10px;
-}
-
-/* //if space at top of file */
-/* h1 {
-  margin-top: 0;
-} */
 
 .user {
   display: flex;
@@ -123,7 +92,20 @@ li {
   color: #EFE4D4;
 }
 
-/* ---------image */
+
+                          /* ---- Header Images ---- */ 
+
+.nav-icon {
+  margin-right: 10px;
+ }
+
+.user-img {
+  margin: 5px;
+}
+
+.user-name {
+  margin: 5px;
+}
 
 .coffee-cup {
   margin-left: 5px;
@@ -138,8 +120,6 @@ li {
 }
 
 /* --------------------MAIN SECTION (CARDS) --------------------*/
-
-
 .near-you {
   font-size: 2em;
   opacity: .7;
@@ -147,21 +127,11 @@ li {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/*--------------------INDIV CARDS---------------------- */
+                      /*-----------INDIV CARDS---------- */
 .cards {
-
-  /* border: 1px dashed; */
   display: grid;
-  /* grid-template-columns: 33% 33% 33%; */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* grid-template-columns: repeat(5, 20vw);
-  grid-template-rows: repeat(3, 20vw); */
-
   grid-gap: 20px;
-  /* grid-template-columns: repeat(3, 1fr); */
-
-   /* grid-template-rows: repeat(3, 100px)*/
-   /* grid-gap: 20px; */
 }
 
 .card {
@@ -172,8 +142,7 @@ li {
   opacity: 0.65;
 }
 
-/* -------- CARD TOP -------- */
-
+                          /* -------- CARD TOP -------- */
 .card-top {
   display: flex;
   height: 35%;
@@ -185,12 +154,12 @@ li {
   height: 40px;
   width: 40px;
 }
+
 .miles-container {
   display: flex;
   flex-direction: column;
   margin: 20px;
   align-items: center;
- 
 }
 
 .miles-label {
@@ -200,19 +169,13 @@ font-size: 16px;
 .miles {
 font-size: 35px;
 font-weight: 500;
-/* line-height: ; */
 }
 
-/* -------------CARD IMAGE BACKGROUNDS----------- */
-
-
-
+                     /* ----------CARD IMAGE BACKGROUNDS------ */
 .card-img-1 {
   background-image: url("../assets/coffee-shop-2.jpeg");
   background-size: 500px 200px;
-  
 }
-
 
 .card-img-2 {
  
@@ -238,27 +201,21 @@ card-image-7 {
  
 }
 
-
 .card-img-8 {
   background-image: url("../assets/coffee.shop-1.jpeg");
   background-size: 500px 200px;
-
- 
 }
 
 
-/* ----------CARD BOTTOM--------------- */
+                /* ----------CARD BOTTOM--------------- */
 .card-bottom {
   display: flex;
   flex-direction: column;
   height: 65%;
 }
 
-/* .bottom-contents {
-  margin: 5px;
-} */
-/* 3 INDIV CONTAINERS WITHIN CARD BOTTOM 
-.details, .adress-container, and rating-container */
+             /* NOTE 3 INDIV CONTAINERS WITHIN CARD BOTTOM 
+              .details, .adress-container, and rating-container */
 .details-container {
   display: flex;
   justify-content: space-between;
@@ -266,17 +223,15 @@ card-image-7 {
   margin-left: 18px;
   margin-right: 18px;
 }
-/* within details */
+               /* within details container */
 .name-and-hours {
   display: flex;
   flex-direction: column;
-  /* background-color: bisque; */
   flex: 1;
   margin-top: 6px;
 }
 
 .shop-name, .hours {
-  /* flex: 1; */
   margin: 0;
 }
 
@@ -296,27 +251,16 @@ card-image-7 {
   display: flex; 
   flex-direction: column; 
   justify-content: space-around;
-  /* margin-right: 15px; */
-
   margin-top: 10px;
-  /* flex: 1;
-  margin: 0;
-  padding: 0; */
 }
 
 .feature {
-  /* display: inline; */
-  /* margin-bottom: 3px; */
   display: flex; 
   align-items: center;
- 
-  
-
 }
 
 .feature-img {
   size: 80%;
-
 }
 
 .feature-p {
@@ -338,15 +282,12 @@ card-image-7 {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 3px;
-  
- 
 }
-
+                        /* within address container */
 .address {
  color: hsl(240, 1%, 14%); 
  padding: 6px;
  font-size: .8em;
- /* font-weight: 1.5em; */
  padding-right: 15px;
 }
 
@@ -356,7 +297,6 @@ card-image-7 {
   height: 27%;
   margin-left: 18px;
   margin-right: 18px;
-  /* margin: 10px; */
 }
 
 .rating-label {
@@ -371,32 +311,27 @@ card-image-7 {
   margin-left: 6px;
 }
 
-/* within-rating-container */
+             /* within-rating-container */
 .num-rating-container {
-
   display: flex;
   align-items: center;
-}
-
-.star-container {
-  /* display: flex; */
-
 }
 
 .rating-star {
   height: 70%;
   padding-top: 3px;
 }
-/* ----------------MOBILE RESPONSIVE DESIGN-------------- */
+
+/* ----------------MOBILE RESPONSIVE DESIGN/ MEDIA QUERIES-------------- */
 @media screen and (max-width: 425px) {
   .hide-for-mobile {
     display: none;
   }
 
- .main-header {
-   display: flex;
- 
- }
+  .main-header {
+    display: flex;
+  }
+
   .mobile-header-container  {
      display: flex;
   }
@@ -409,7 +344,6 @@ card-image-7 {
     margin-left: 130px;
     margin-top: 20px;
   }
-
 
   .name-logo {
     font-size: 15px;
@@ -426,19 +360,18 @@ card-image-7 {
   }
 
 
-.cards {
-  grid-gap: 2px;
-}
+                       /* ----------CARD --------------- */
+  .cards {
+    grid-gap: 2px;
+  }
 
-.card {
-  min-height: 325px;
-}
+  .card {
+    min-height: 325px;
+  }
 
-  /* ----------CARD --------------- */
   .details-container {
     display: flex;
     justify-content: center;
- 
   }
 
   .shop-features {
@@ -453,75 +386,25 @@ card-image-7 {
     width: 35px;
   }
 
+  .num-rating-container {
+    display: flex;
+    justify-content: center;
+  }
 
-.num-rating-container {
-  display: flex;
-  justify-content: center;
-}
+  .card-top {
+    margin: 20px;
+    border-radius: 3px;
+  }
 
-.card-top {
-  margin: 20px;
-  border-radius: 3px;
-}
-
-.shop-title-mobile {
-  font-size: 20px;
-  margin: 9px;
-}
-
-
-  
-  
+  .shop-title-mobile {
+    font-size: 20px;
+    margin: 9px;
+  }
 }
 
 @media screen and (min-width: 450px) {
   .hide-for-desktop {
     display: none;
   }
-  /* //this includes the hamburger icon */
 }
 
-/* //do I use this below? */
-/* @media screen and (max-width: 1200px) and (min-width: 1025px) {
-  .hide-for-desktop {
-    display: none;
-  }
-  /* //this includes the hamburger icon */
-/* } */ 
-
-
-/* grid-template-columns: minmax(200px, 1.167fr) 0.45fr 0.25fr 0.3fr 0.8fr; */
-
-
-/*--------------------------- STARTING TEMPLATE */
-/* .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
-} */
-/* --------------------- */
-
-/*--------STYLE INDIVIDUAL BOXES TO SPAN MULTIPLES COLUMNS OR ROWS */
-
-/* .box1 {
-  grid-row: span 2;
-}
-
-.box8 {
-  grid-column: span 2;
-  /* which is shorthand for */
-/*   grid-column: 1 / 3; */
-  /* which is shorthand for */
-/*   grid-column-start: 1; */
-/*   grid-column-end: 3; */
-/* } */ 
-
-/* ----------------Span entire column------------------- */
-/* span the entire width of the grid */
-/* .box9 {
-  grid-column: 1 / -1;
-} */
-/* ------------------Make Grid Adaptive-------------------- */
-/* grid-template-columns: repeat(auto-fit, 300px); */
-/* ----------------Make grid responsive--------- */
-/* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
