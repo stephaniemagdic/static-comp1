@@ -107,11 +107,12 @@ li {
 /* ---------image */
 
 .coffee-cup {
-  margin-left: 20px;
+  margin-left: 5px;
   margin-right: 10px;
   height: 30px;
   width: 30px;
 }
+
 /* --------------------MAIN SECTION (CARDS) --------------------*/
 
 
@@ -317,24 +318,35 @@ card-image-7 {
   height: 27%;
   margin-left: 10px;
   margin-right: 10px;
+  /* margin: 10px; */
+}
+
+.rating-label {
+  font-size: 12px;
+  margin: 3px;
 }
 
 .number-rating {
   font-size: 1.5em;
   color: #556b2f;
+  margin-right: 12px;
 }
 
 /* within-rating-container */
 .num-rating-container {
-  background-color: darkgrey;
+
   display: flex;
 }
 
 .star-container {
   /* display: flex; */
-  background-color: yellowgreen;
+
 }
 
+.rating-star {
+  height: 70%;
+  padding-top: 3px;
+}
 /* ----------------MOBILE RESPONSIVE DESIGN-------------- */
 @media screen and (max-width: 425px) {
   .hide-for-mobile {
