@@ -121,6 +121,10 @@ card-image-8 {
   flex-direction: column;
   height: 65%;
 }
+
+/* .bottom-contents {
+  margin: 5px;
+} */
 /* 3 INDIV CONTAINERS WITHIN CARD BOTTOM 
 .details, .adress-container, and rating-container */
 .details-container {
@@ -128,6 +132,8 @@ card-image-8 {
   justify-content: space-between;
   border: dashed green;
   height: 51%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* within details */
 .name-and-hours {
@@ -171,31 +177,42 @@ card-image-8 {
   display: flex;
   background-color: darkgoldenrod;
   height: 22%;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
 }
 
 .address {
  color: hsl(240, 1%, 14%); 
+ padding: 6px;
+ font-size: .8em;
+ padding-right: 15px;
 }
 
 .rating-container {
   display: flex;
   flex-direction: column;
   height: 27%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.number-rating {
+  font-size: 1.5em;
 }
 
 /* within-rating-container */
 .num-rating-container {
   background-color: darkgrey;
   display: flex;
-
-  
 }
 
 .star-container {
   /* display: flex; */
   background-color: yellowgreen;
-
-  
 }
 
 /* ----------------MOBILE RESPONSIVE DESIGN-------------- */
