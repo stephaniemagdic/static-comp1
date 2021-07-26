@@ -166,11 +166,13 @@ li {
 
 .miles-label {
 font-size: 16px;
+color: #070707;
 }
 
 .miles {
 font-size: 35px;
 font-weight: 500;
+color: #070707;
 }
 
                      /* ----------CARD IMAGE BACKGROUNDS------ */
@@ -180,27 +182,34 @@ font-weight: 500;
 }
 
 .card-img-2 {
- 
+  background-image: url("../assets/coffee-shop-3.jpeg");
+  background-size: 500px 200px;
 }
 
 .card-img-3 {
- 
+  background-image: url("../assets/coffee-shop-4.jpg");
+  background-size: 500px 200px;
 }
 
 .card-img-4 {
- 
+  background-image: url("../assets/coffee-shop-5.jpg");
+  background-size: 500px 200px;
 }
 
 .card-img-5 {
- 
+  background-image: url("../assets/coffee-shop-6.jpg");
+  background-size: 500px 200px;
 }
 
-card-img-6 {
- 
+.card-img-6 {
+  background-image: url("../assets/coffee-shop-extra.jpg");
+  background-size: 500px 200px;
 }
 
-card-image-7 {
- 
+/* //take mom photo out. Not good size./ or resize. */
+.card-img-7 {
+  background-image: url("../assets/coffee-shop-mom.jpg");
+  background-size: 335px 150px;
 }
 
 .card-img-8 {
