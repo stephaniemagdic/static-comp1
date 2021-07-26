@@ -39,8 +39,6 @@ body {
 /* -----------------HEADER----------------- */
 .main-header {
  background-color: #A5ACA0;
- /* background-color: #666d5a; */
- /* background-color: #556b2f; */
  height: 150px;
  display: flex;
  flex-direction: columns;
@@ -219,7 +217,7 @@ color: #070707;
 /* //take mom photo out. Not good size./ or resize. */
 .card-img-7 {
   background-image: url("../assets/coffee-shop-mom.jpg");
-  background-size: 335px 150px;
+  background-size: 345px 150px;
   background-position: center;
 }
 
@@ -283,7 +281,7 @@ color: #070707;
 }
 
 .feature-img {
-  size: 80%;
+  size: 60%;
 }
 
 .feature-p {
