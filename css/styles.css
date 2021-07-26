@@ -315,6 +315,7 @@ color: #070707;
   height: 27%;
   margin-left: 18px;
   margin-right: 18px;
+  opacity: .7;
 }
 
 .rating-label {
