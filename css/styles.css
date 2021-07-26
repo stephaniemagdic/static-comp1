@@ -37,7 +37,7 @@ body {
 
 /* -----------------HEADER----------------- */
 .main-header {
- background-color: #556b2f;
+ background-color: #A5ACA0;
  height: 150px;
  display: flex;
  flex-direction: columns;
@@ -139,7 +139,7 @@ li {
   flex-direction: column;
   background-color: white;
   min-height: 375px;
-  opacity: 0.65;
+  box-shadow: 1px 1px 1px grey;
 }
 
                           /* -------- CARD TOP -------- */
@@ -147,6 +147,8 @@ li {
   display: flex;
   height: 35%;
   justify-content: space-between;
+  opacity: 0.65;
+  background-color: #000000;
 }
 
 .favorite-me {
@@ -164,46 +166,63 @@ li {
 
 .miles-label {
 font-size: 16px;
+color: #070707;
 }
 
 .miles {
 font-size: 35px;
 font-weight: 500;
+color: #070707;
 }
 
                      /* ----------CARD IMAGE BACKGROUNDS------ */
 .card-img-1 {
   background-image: url("../assets/coffee-shop-2.jpeg");
   background-size: 500px 200px;
+  background-position: center;
 }
 
 .card-img-2 {
- 
+  background-image: url("../assets/coffee-shop-3.jpeg");
+  background-size: 500px 200px;
+  background-position: center;
 }
 
 .card-img-3 {
- 
+  background-image: url("../assets/coffee-shop-4.jpg");
+  background-size: 500px 200px;
+  background-position: center;
 }
 
 .card-img-4 {
- 
+  background-image: url("../assets/coffee-shop-5.jpg");
+  background-size: 500px 200px;
+  background-position: center;
 }
 
 .card-img-5 {
- 
+  background-image: url("../assets/coffee-shop-6.jpg");
+  background-size: 500px 200px;
+  background-position: center;
 }
 
-card-img-6 {
- 
+.card-img-6 {
+  background-image: url("../assets/coffee-shop-extra.jpg");
+  background-size: 500px 200px;
+  background-position: center;
 }
 
-card-image-7 {
- 
+/* //take mom photo out. Not good size./ or resize. */
+.card-img-7 {
+  background-image: url("../assets/coffee-shop-mom.jpg");
+  background-size: 345px 150px;
+  background-position: center;
 }
 
 .card-img-8 {
   background-image: url("../assets/coffee.shop-1.jpeg");
   background-size: 500px 200px;
+  background-position: center;
 }
 
 
@@ -260,7 +279,7 @@ card-image-7 {
 }
 
 .feature-img {
-  size: 80%;
+  size: 60%;
 }
 
 .feature-p {
@@ -276,7 +295,6 @@ card-image-7 {
   display: flex;
   background-color: #b68557 ;
   height: 22%;
-  align-items: center;
   margin-left: 18px;
   margin-right: 18px;
   margin-top: 10px;
@@ -297,6 +315,7 @@ card-image-7 {
   height: 27%;
   margin-left: 18px;
   margin-right: 18px;
+  opacity: .7;
 }
 
 .rating-label {
@@ -329,11 +348,13 @@ card-image-7 {
   }
 
   .main-header {
-    display: flex;
+    display: none;
   }
 
   .mobile-header-container  {
      display: flex;
+     background-color: #A5ACA0;
+     justify-content: space-between;
   }
 
   .left-mobile-header-container {
@@ -341,8 +362,13 @@ card-image-7 {
   }
 
   .hamburger-menu {
-    margin-left: 130px;
     margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .hamburger-collapse {
+    width: 40px;
+    height: 40px
   }
 
   .name-logo {
@@ -367,6 +393,7 @@ card-image-7 {
 
   .card {
     min-height: 325px;
+    opacity: 75%;
   }
 
   .details-container {
@@ -392,8 +419,10 @@ card-image-7 {
   }
 
   .card-top {
-    margin: 20px;
+    margin: 25px;
+    margin-top: 10px;
     border-radius: 3px;
+    height: 50%;
   }
 
   .shop-title-mobile {
