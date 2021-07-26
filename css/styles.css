@@ -38,7 +38,8 @@ body {
 
 /* -----------------HEADER----------------- */
 .main-header {
- background-color: #666d5a;
+ background-color: #A5ACA0;
+ /* background-color: #666d5a; */
  /* background-color: #556b2f; */
  height: 150px;
  display: flex;
@@ -141,9 +142,7 @@ li {
   flex-direction: column;
   background-color: white;
   min-height: 375px;
-  opacity: 0.65;
   box-shadow: 1px 1px 1px grey;
- 
 }
 
                           /* -------- CARD TOP -------- */
@@ -151,6 +150,8 @@ li {
   display: flex;
   height: 35%;
   justify-content: space-between;
+  opacity: 0.65;
+  background-color: #000000;
 }
 
 .favorite-me {
@@ -169,6 +170,7 @@ li {
 .miles-label {
 font-size: 16px;
 color: #070707;
+
 }
 
 .miles {
@@ -181,42 +183,50 @@ color: #070707;
 .card-img-1 {
   background-image: url("../assets/coffee-shop-2.jpeg");
   background-size: 500px 200px;
+  background-position: center;
 }
 
 .card-img-2 {
   background-image: url("../assets/coffee-shop-3.jpeg");
   background-size: 500px 200px;
+  background-position: center;
 }
 
 .card-img-3 {
   background-image: url("../assets/coffee-shop-4.jpg");
   background-size: 500px 200px;
+  background-position: center;
 }
 
 .card-img-4 {
   background-image: url("../assets/coffee-shop-5.jpg");
   background-size: 500px 200px;
+  background-position: center;
 }
 
 .card-img-5 {
   background-image: url("../assets/coffee-shop-6.jpg");
   background-size: 500px 200px;
+  background-position: center;
 }
 
 .card-img-6 {
   background-image: url("../assets/coffee-shop-extra.jpg");
   background-size: 500px 200px;
+  background-position: center;
 }
 
 /* //take mom photo out. Not good size./ or resize. */
 .card-img-7 {
   background-image: url("../assets/coffee-shop-mom.jpg");
   background-size: 335px 150px;
+  background-position: center;
 }
 
 .card-img-8 {
   background-image: url("../assets/coffee.shop-1.jpeg");
   background-size: 500px 200px;
+  background-position: center;
 }
 
 
@@ -383,6 +393,7 @@ color: #070707;
 
   .card {
     min-height: 325px;
+    opacity: 75%;
   }
 
   .details-container {
@@ -408,8 +419,10 @@ color: #070707;
   }
 
   .card-top {
-    margin: 20px;
+    margin: 25px;
+    margin-top: 10px;
     border-radius: 3px;
+    height: 50%;
   }
 
   .shop-title-mobile {
