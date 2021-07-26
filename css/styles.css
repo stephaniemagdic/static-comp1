@@ -142,6 +142,8 @@ li {
   background-color: white;
   min-height: 375px;
   opacity: 0.65;
+  box-shadow: 1px 1px 1px grey;
+ 
 }
 
                           /* -------- CARD TOP -------- */
