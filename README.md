@@ -1,4 +1,5 @@
-# Fitlit Wellness Tracker
+# Static Comp Challenge # 1 
+(Note to self: link deployed site)
 
 #### [Static Comp Challenge 1 Spec](https://frontend.turing.edu/projects/module-1/m1-static-comp)
 
