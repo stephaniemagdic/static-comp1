@@ -2,7 +2,6 @@
 /* ---- Default Styles ---- */ 
 * {
   font-family: sans-serif;
-  /* change font to white for color blindness in the nav bar */
   color: #151618;
 }
 
@@ -168,7 +167,6 @@ li {
 .miles-label {
 font-size: 16px;
 color: #070707;
-
 }
 
 .miles {
@@ -349,15 +347,14 @@ color: #070707;
     display: none;
   }
 
-  /* FIX NEEDED */
-  /* align-items: space-between;
-    justify-content: space-between; */
   .main-header {
-    display: flex;
+    display: none;
   }
 
   .mobile-header-container  {
      display: flex;
+     background-color: #A5ACA0;
+     justify-content: space-between;
   }
 
   .left-mobile-header-container {
@@ -365,8 +362,13 @@ color: #070707;
   }
 
   .hamburger-menu {
-    margin-left: 130px;
     margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .hamburger-collapse {
+    width: 40px;
+    height: 40px
   }
 
   .name-logo {
