@@ -26,6 +26,8 @@ Technologies:
 * Chrome and FireFox developer tools
 * Miro
 * Git/GitHub
+* WAVE chrome extension
+* Colorblind: Dalton for Google chrome extension
 
 Future Itterations: 
 This site is not functional, as it is a purely CSS/HTML repository. In the future I would love to add JavaScript to make the coffee finder dream come true.
