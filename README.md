@@ -20,6 +20,12 @@ CoffeeFinder Result:
 ![Coffee Finder Desktop](https://i.ibb.co/NVSL8Ly/Screen-Shot-2021-07-26-at-5-50-18-PM.png)
 ![Coffee Finder Mobile](https://i.ibb.co/NnzJksf/Screen-Shot-2021-07-26-at-5-50-34-PM.png)
 
+Technologies:
+* HTML5
+* CSS
+* Chrome and FireFox developer tools
+* Miro
+* Git/GitHub
 
 Future Itterations: 
 This site is not functional, as it is a purely CSS/HTML repository. In the future I would love to add JavaScript to make the coffee finder dream come true.
